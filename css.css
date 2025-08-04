@@ -1,0 +1,42 @@
+.heading
+{
+    text-align: center;
+    color:azure;
+    text-transform:uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+}
+.heading span
+{
+    color: orange;
+    text-transform: uppercase;
+}
+section{
+    padding:2rem 7%;
+
+}
+.btn
+{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:0.9rem 3rem;
+    font-size:1rem;
+    color:red;
+    background:orange;
+    cursor:pointer;
+    border-radius: 5rem;
+}
+.btn:hover{
+    background:cyan;
+}
+.menu .box-container{
+    display:flex;
+    gap:2rem;
+    flex-wrap:wrap;
+}
+.menu .box-container .box{
+    padding:6.5rem;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 1rem;
+}
